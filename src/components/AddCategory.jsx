@@ -4,7 +4,7 @@ useState
 
 export const AddCategory = ({ onNewCategory }) => {
 
-    const [ inputValue, setInputValue ] = useState('Metroid');
+    const [ inputValue, setInputValue ] = useState('Cambio para nueva version :D');
 
     const onInputChange = ({target:{value}}) => {
         setInputValue( value );
