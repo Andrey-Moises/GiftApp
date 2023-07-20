@@ -4,7 +4,7 @@ useState
 
 export const AddCategory = ({ onNewCategory }) => {
 
-    const [ inputValue, setInputValue ] = useState('v0.0.2');
+    const [ inputValue, setInputValue ] = useState('v0.0.3');
 
     const onInputChange = ({target:{value}}) => {
         setInputValue( value );
